@@ -2,13 +2,16 @@
 @import "reset.css";
 @import "variables.css";
 /* component */
-@import "status-bar.css";
-@import "navi-bar.css";
-@import "screen-header.css";
+@import "components/status-bar.css";
+@import "components/navi-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* login */
-@import "login.css";
+@import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
 }
